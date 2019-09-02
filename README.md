@@ -1,1 +1,2 @@
-# ubuntu-setup
+# Install basic programs in Ubuntu
+
