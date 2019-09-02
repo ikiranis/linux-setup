@@ -17,7 +17,7 @@ sudo apt update
 sudo apt install htop git albert vlc gnome-tweaks gnome-tweak-tool spell myspell-el-gr -y
 
 # Graphics
-sudo apt install gimp scribus -y
+sudo apt install gimp -y
 
 # Games
 sudo apt install steam-installer -y
