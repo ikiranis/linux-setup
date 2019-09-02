@@ -1,2 +1,2 @@
-# Install basic programs in Ubuntu
+# Install basic software in Ubuntu
 
