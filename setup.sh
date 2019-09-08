@@ -16,13 +16,21 @@ sudo add-apt-repository -y ppa:teejee2008/ppa
 sudo apt update
 
 # Basic software/tools
-sudo apt install htop git albert timeshift vlc gnome-tweaks gnome-tweak-tool spell myspell-el-gr -y
+sudo apt install htop git albert timeshift vlc gnome-tweaks gnome-tweak-tool spell gdebi myspell-el-gr -y
 
 # Graphics
 sudo apt install gimp -y
 
 # Games
 sudo apt install steam-installer -y
+
+# Install cronopete
+# http://www.rastersoft.com/programas/cronopete.html
+# for 18.04
+wget http://www.rastersoft.com/descargas/cronopete/cronopete-bionic_4.4.0-ubuntu1_amd64.deb
+# for 19.04
+# wget http://www.rastersoft.com/descargas/cronopete/cronopete-disco_4.11.0-ubuntu1_amd64.deb
+sudo gdebi cronopete*.deb
 
 # Remove junk
 sudo apt-get remove ubuntu-web-launchers thunderbird rhythmbox -y
