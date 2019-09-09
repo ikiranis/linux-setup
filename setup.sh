@@ -39,6 +39,11 @@ sudo gdebi cronopete*.deb
 # Remove junk
 sudo apt-get remove ubuntu-web-launchers thunderbird rhythmbox -y
 
+# Make some settings
+
+# Dock minimize effect
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
 # Gotta reboot now:
 sudo apt update && sudo apt upgrade -y
 
