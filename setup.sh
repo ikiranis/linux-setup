@@ -21,7 +21,7 @@ sudo apt update
 
 # Basic software/tools
 sudo apt install htop git albert timeshift vlc gnome-tweaks gnome-tweak-tool \
-gthumb spell gdebi myspell-el-gr -y
+gthumb spell gdebi myspell-el-gr guake -y
 
 # GSConnect
 # https://github.com/andyholmes/gnome-shell-extension-gsconnect/wiki
