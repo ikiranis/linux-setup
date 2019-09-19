@@ -27,6 +27,9 @@ gthumb spell gdebi myspell-el-gr guake nmap -y
 # https://github.com/andyholmes/gnome-shell-extension-gsconnect/wiki
 sudo apt install gnome-shell-extension-gsconnect -y
 
+# Install libre office gtk3 theme
+sudo apt install libreoffice-gtk3 -y
+
 # Graphics
 sudo apt install gimp -y
 
