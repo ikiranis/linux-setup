@@ -30,6 +30,9 @@ sudo apt install gnome-shell-extension-gsconnect -y
 # Install libre office gtk3 theme
 sudo apt install libreoffice-gtk3 -y
 
+# Install soundconverter
+sudo apt install soundconverter -y
+
 # Graphics
 sudo apt install gimp -y
 
