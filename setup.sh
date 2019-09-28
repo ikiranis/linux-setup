@@ -39,6 +39,10 @@ sudo apt install gimp -y
 # Games
 sudo apt install steam-installer -y
 
+# Install ranger (terminal file manager) 
+# https://github.com/ranger/ranger
+suto apt install ranger -y
+
 # Install cronopete
 # http://www.rastersoft.com/programas/cronopete.html
 # for 18.04
