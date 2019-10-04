@@ -33,6 +33,9 @@ sudo apt install libreoffice-gtk3 -y
 # Install soundconverter
 sudo apt install soundconverter -y
 
+# Install exfat
+sudo apt install exfat-fuse exfat-utils -y
+
 # Graphics
 sudo apt install gimp -y
 
