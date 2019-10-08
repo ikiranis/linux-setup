@@ -21,11 +21,15 @@ sudo apt update
 
 # Basic software/tools
 sudo apt install htop git albert timeshift vlc gnome-tweaks gnome-tweak-tool \
-gthumb spell gdebi myspell-el-gr guake nmap file-roller pavucontrol pidgin chrome-gnome-shell -y
+gthumb spell gdebi myspell-el-gr guake nmap file-roller pavucontrol pidgin -y
 
 # GSConnect
 # https://github.com/andyholmes/gnome-shell-extension-gsconnect/wiki
 sudo apt install gnome-shell-extension-gsconnect -y
+
+# Install system monitor applet
+# https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
+sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0 gir1.2-clutter-1.0 chrome-gnome-shell -y
 
 # Install libre office gtk3 theme
 sudo apt install libreoffice-gtk3 -y
