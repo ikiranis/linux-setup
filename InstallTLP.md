@@ -7,3 +7,9 @@ sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
 sudo apt-get install tlp tlp-rdw
 ```
+
+Run the first time
+
+```
+sudo tlp start
+```
