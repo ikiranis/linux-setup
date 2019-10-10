@@ -39,7 +39,7 @@ sudo apt install libreoffice-gtk3 -y
 sudo apt install soundconverter -y
 
 # Sensors
-sudo apt install psensor lm-sensors -y
+sudo apt install indicator-cpufreq psensor lm-sensors -y
 
 # Install exfat
 sudo apt install exfat-fuse exfat-utils -y
