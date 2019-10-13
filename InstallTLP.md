@@ -13,3 +13,9 @@ Run the first time
 ```
 sudo tlp start
 ```
+
+Sensors detect
+
+```
+sudo sensors-detect
+```
