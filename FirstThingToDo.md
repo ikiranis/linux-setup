@@ -4,4 +4,5 @@
 - Install Extensions
 - Install TLP (or other for power management)
 - Setting on Gnome
+- Install new nvidia drivers
 - Install apps
