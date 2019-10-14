@@ -1,5 +1,6 @@
 # Basic apps to install
 
+- Dropbox
 - LibreOffice
 - PHPStorm
 - Visual Studio
