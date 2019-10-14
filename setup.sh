@@ -26,7 +26,7 @@ dconf-editor openssh-server ubuntu-restricted-extras -y
 
 # GSConnect
 # https://github.com/andyholmes/gnome-shell-extension-gsconnect/wiki
-sudo apt install gnome-shell-extension-gsconnect -y
+# sudo apt install gnome-shell-extension-gsconnect -y
 
 # Install system monitor applet
 # https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
@@ -39,7 +39,7 @@ sudo apt install libreoffice-gtk3 -y
 sudo apt install soundconverter -y
 
 # Sensors
-sudo apt install fancontrol psensor lm-sensors -y
+sudo apt install psensor lm-sensors -y
 
 # Install exfat
 sudo apt install exfat-fuse exfat-utils -y
