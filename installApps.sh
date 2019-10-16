@@ -27,3 +27,11 @@ sudo apt install libreoffice
 sudo add-apt-repository ppa:kdenlive/kdenlive-stable
 sudo apt-get update
 sudo apt install kdenlive
+
+# Install WPS Office and greek dictionary
+# http://wps-community.org/downloads
+wget http://kdl.cc.ksosoft.com/wps-community/download/8865/wps-office_11.1.0.8865_amd64.deb
+wget http://wps-community.org/download/dicts/el_GR.zip
+sudo gdebi wps-office_11.1.0.8865_amd64.deb
+unzip el_GR.zip
+sudo cp -R el_GR /opt/kingsoft/wps-office/office6/dicts/spellcheck 
