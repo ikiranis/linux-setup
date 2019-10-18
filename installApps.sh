@@ -35,3 +35,7 @@ wget http://wps-community.org/download/dicts/el_GR.zip
 sudo gdebi wps-office_11.1.0.8865_amd64.deb
 unzip el_GR.zip
 sudo cp -R el_GR /opt/kingsoft/wps-office/office6/dicts/spellcheck 
+
+# Install OBS
+sudo apt install obs-studio
+
