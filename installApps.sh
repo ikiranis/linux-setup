@@ -27,3 +27,6 @@ sudo apt install libreoffice
 sudo add-apt-repository ppa:kdenlive/kdenlive-stable
 sudo apt-get update
 sudo apt install kdenlive
+
+#Install OBS
+sudo apt install obs-studio
