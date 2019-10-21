@@ -39,3 +39,6 @@ sudo cp -R el_GR /opt/kingsoft/wps-office/office6/dicts/spellcheck
 # Install OBS
 sudo apt install obs-studio
 
+# Install Virtualbox
+sudo apt install virtualbox
+
