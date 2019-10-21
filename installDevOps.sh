@@ -13,7 +13,7 @@ sudo apt install -y nodejs
 sudo npm install -g @vue/cli
 
 # Install Composer/PHP
-sudo apt install php7.2 php7.2-mysql libapache2-mod-php7.2 php7.2-mbstring php7.2-xml -y
+sudo apt install php7.3 php7.3-mysql libapache2-mod-php7.3 php7.3-mbstring php7.3-xml -y
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 sudo apt remove apache2 -y
