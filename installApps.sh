@@ -42,3 +42,6 @@ sudo apt install obs-studio
 # Install Virtualbox
 sudo apt install virtualbox
 
+# Install joplin
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
+
