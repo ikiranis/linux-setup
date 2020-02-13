@@ -45,3 +45,9 @@ sudo apt install virtualbox
 # Install joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
 
+# Install Slack
+sudo snap install slack
+
+# Install Discord
+sudo snap install discord
+
